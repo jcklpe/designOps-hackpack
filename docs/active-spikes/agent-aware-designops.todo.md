@@ -27,7 +27,7 @@ These entries record the initial provisional wrapper setup. The current package 
 - [x] Add the complete Project Workflows collection from shared main, with the adaptation branch `project/designops-hackpack` and a project-local configuration.
 - [x] Reconcile README, AGENTS and maintainer onboarding; keep coordination local and consumer use independent of the maintainer workflow.
 - [x] Preserve future ideas in the parked [evolution note](../scratch/agentic-designops-evolution.md).
-- [ ] Publish the dependency branch and package setup; verify a fresh recursive clone and clean relevant working trees.
+- [x] Publish the dependency branch and package setup. A fresh recursive clone of package commit `33fe582` restored Project Workflows `d0c2fef` on its recorded pin; the clone was clean and maintainer-document relative links resolved. Validation performed 2026-11-01. No consumer governance or service setup was exercised.
 
 ## Deferred
 Governance skills, token-tooling comparisons, formal team procedures, consumer adoption, and license review are outside this checkpoint. Resume with a separately bounded slice when requested; these topics are not an active implementation queue.
