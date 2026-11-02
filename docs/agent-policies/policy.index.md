@@ -1,7 +1,7 @@
 # DesignOps HackPack agent policies
 These project-owned policies govern agents maintaining this package. All seven records were adopted by Aslan on 2026-11-02 in the active migration conversation. Load applicable adopted policies with their complete prerequisite closure; proposals are non-operative. The [AGENTS instructions](../../AGENTS.md) route policy and maintenance tasks.
 
-The three kernel bodies come from Project Workflows commit `79dddf9742c282d184c65d5c5ef87a142900897f`; status and authority metadata record local adoption. The [migration spike](../active-spikes/agent-policy-migration.md) owns the source evidence, obligation mapping and adoption decision. These copies are not registered for automatic asset refresh.
+The three kernel bodies come from Project Workflows commit `79dddf9742c282d184c65d5c5ef87a142900897f`; status and authority metadata record local adoption. The [archived migration record](../archive/agent-policy-migration.md) preserves the source evidence, obligation mapping and adoption decision. These copies are not registered for automatic asset refresh.
 
 <!-- agent-policies:start -->
 | ID | Policy | Type | Scope | Status | Revised |

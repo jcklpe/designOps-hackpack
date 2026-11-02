@@ -1,8 +1,10 @@
 ---
-attention: live
+attention: historical
 reviewed: 2026-11-02
 ---
 # Agent policy migration — DesignOps HackPack
+Historical record. Closed 2026-11-02 on explicit human instruction. Stable slug: `agent-policy-migration`. Current guidance is owned by [AGENTS](../../AGENTS.md), the [adopted policy index](../agent-policies/policy.index.md) and its selected task skills. Stage snapshots in this archive are evidence, not current instructions.
+
 Opened 2026-11-02. Stable slug: `agent-policy-migration`. [Tasks](agent-policy-migration.todo.md). This bounded receiving-project migration preserves the package's research/design procedures. The preparation snapshot below is historical; the current execution evidence and completion receipt are recorded below.
 
 ## Current migration state
@@ -16,7 +18,7 @@ No files were found under docs/policies or docs/agent-policies. This repository 
 Policy inventory at preparation:
 - None found in the configured/current policy folders; inspect AGENTS and durable docs before concluding there are no standing instructions.
 
-Related owners: [agent aware designops](agent-aware-designops.md). Those completed/adoption/design scopes retain their own remaining QA and closure decisions; this new receiving phase does not reopen or silently close them. Central coordination lives in Project Workflows, `docs/active-spikes/agent-policy-rollout.md` (prepared locally, not published). [Project instructions](../../AGENTS.md) remain authoritative.
+Related owners: [agent aware designops](../active-spikes/agent-aware-designops.md). Those completed/adoption/design scopes retain their own remaining QA and closure decisions; this new receiving phase does not reopen or silently close them. Central coordination lives in Project Workflows, `docs/active-spikes/agent-policy-rollout.md` (prepared locally, not published). [Project instructions](../../AGENTS.md) remain authoritative.
 
 ## Project boundaries
 Adopt or propose rules for agents maintaining this package only. Do not turn sample governance/specifications into binding consumer policy, implement the deferred catalog, create consumer projects or alter their governance. Preserve source attribution and public/private boundaries.
@@ -124,4 +126,13 @@ The project has no separate human-policy folder or legacy policy records to pres
 - Verification used an existing Python 3.14 interpreter and existing safe Ruby/Psych YAML support. No package/environment was installed, no provider implementation was modified and no service write was performed. Provider test-suite or application-build execution is not claimed; actual delivered tools, local links, source comparisons, configuration and repeatability were checked.
 - Scoped local checkpoints retain the source merge `439d5041c8a13b5e284c115681378654656c705e`, followed by child configuration commit `968fccee7e1d281cc433099117374715442c0de9`. The parent integration checkpoint selects that exact child gitlink, AGENTS, the eight policy/index files, this spike pair and its TODO entry. The working, index and committed child pin must all equal `968fccee7e1d281cc433099117374715442c0de9` at the verified parent boundary. Checkpoints use the stable `Spike: agent-policy-migration` trailer and contain no co-author trailer. Nothing was pushed or published.
 
-The receiving migration has no remaining implementation or adoption gate. Ordinary-use acceptance remains a separately owned observation on the next authorized package-maintenance task, as described above; no service call is required to manufacture it. The maintained owners are AGENTS, the project-owned policy index and the selected task skills. This pair remains live for that concrete observation and an eventual explicitly authorized closure; migration completion does not silently archive it or close the direction spike.
+The receiving migration is closed on the human's explicit instruction. The authorized closeout task exercised the adopted AGENTS/index/prerequisite route in this chat; fresh-client discovery and continuing compliance remain untested and are not claimed by this closure. The maintained owners are AGENTS, the project-owned policy index and the selected task skills. No successor implementation spike is needed. The direction spike retains its own scope and status.
+
+## Closeout receipt — 2026-11-02
+The human authorized archival, its local commit and publication. The pair is retained in full under `docs/archive/` with historical attention markers, closure notices and repaired provenance links. Current agent obligations remain in the seven adopted policy files; this archive preserves their original mapping, exact source and decisions without taking over policy authority.
+
+This authorized maintenance task began from actual AGENTS and the policy index and loaded all seven adopted policies with their prerequisite closure. The retained package/consumer boundary, local coordination and research/design safeguards were checked during the closeout. This is bounded agent-observed retrieval in this chat, not fresh-client or ongoing-behavior certification. Structural, local-link, source-preservation, single-directory and updater repeat checks are verified for the archival checkpoint.
+
+The source provider target remains `79dddf9742c282d184c65d5c5ef87a142900897f`. The implementation checkpoint `7e74689a18be6112a0215c9b52e52e9c86d034e0` recorded child `968fccee7e1d281cc433099117374715442c0de9`; the closeout pins child `c49860cb625ff5c7004e3ee4dc350bb64e04d86c` after the test-only portability correction below. No policy body, design resource or research/design procedure changes as part of closure. Both policy locators remain on `docs/agent-policies`; no `docs/policies` directory is created. Publication results are verified separately from this pre-publication archival snapshot.
+
+Publication verification found that Python 3.14 correctly rejects an invalid calendar date with different exception wording than Python 3.13. The single test assertion now matches the shared rejection wording; policy-checker behavior is unchanged. All 30 policy tests pass on Python 3.14, the affected metadata test passes on Python 3.13, and all 23 updater tests pass. The outgoing parent and child histories were checked against their exact remote branch tips for fast-forward ancestry and reviewed for sensitive paths/content before publication.
