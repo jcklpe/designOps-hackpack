@@ -104,3 +104,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Local maintainer configuration and caches
+.env.*
+!.env.example
+*.local.json
+__pycache__/

@@ -1,6 +1,35 @@
 # DesignOps HackPack
 
-Template repo for bootstrapping a desOps practice using github.
+Reusable DesignOps resources, being developed as an agent-aware skills-and-tools package. The repository holds both reusable material and documentation for maintaining the package; it does not require a separate development repository.
+
+## Using the package
+The available material includes example component specifications, token palettes, icon assets and a GitHub-based governance example. Select and adapt useful resources to your project. The governance example below is optional; cloning this repository does not adopt it as your team’s process. Keep your project’s actual work and private information in its own workspace.
+
+An agentic skill/tool catalog is planned, not yet implemented. Package here describes the reusable repository’s role, not an existing package-manager release or installer.
+
+## Developing the package
+Start with [AGENTS.md](AGENTS.md), [TODO.md](TODO.md) and the [agent-aware DesignOps direction spike](docs/active-spikes/agent-aware-designops.md). Development records live in this repository’s `docs/`; their proposals and tasks apply to maintaining the toolkit, not to consumers using its resources. Maintenance uses the pinned [Project Workflows](project-workflows/README.md) collection on `project/designops-hackpack`. Its procedures govern development of this package; they do not automatically govern consumer projects.
+
+The source repository is [jcklpe/designOps-hackpack](https://github.com/jcklpe/designOps-hackpack). Broader governance tooling and adoption into other projects remain future work.
+
+## Join package development
+Clone with submodules, or restore the recorded dependency in an existing checkout:
+
+```sh
+git clone --recurse-submodules https://github.com/jcklpe/designOps-hackpack.git
+# In an existing checkout:
+git submodule update --init --recursive -- project-workflows
+```
+
+Keep the exact recorded dependency revision. Read `AGENTS.md` before changing files. Skills can be used directly from their files; global registration and service authentication are separate, optional setup steps.
+
+**Paste into your agent:**
+
+```text
+Help me get ready to contribute to this DesignOps HackPack repository. Read README.md and AGENTS.md, preserve existing work, and restore the pinned project-workflows submodule if needed. Read project-workflows/setup-project-workflows/SKILL.md and follow its collaborator onboarding procedure. Explain how to use the available maintenance skills without requiring global installation. Do not change pins, adopt governance in another project, publish, or enable forge automation as part of onboarding.
+```
+
+When starting a contribution, ask the agent to read `project-workflows/coordinate-project-contribution/SKILL.md`, agree on the requested scope, and use an agent-owned spike in this repository. Check relevant relative links, configuration and changed resources; no runtime tooling is required just to read or use the existing guidance.
 
 ## Design Tokens
 
