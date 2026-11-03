@@ -12,7 +12,7 @@ The three kernel bodies come from Project Workflows commit `79dddf9742c282d184c6
 | HONOR-AUTHORITY | [Honor coordination and checkpoint authority](HONOR-AUTHORITY-respect-coordination-and-checkpoint-permissions.md) | operational | Agent coordination, checkpoints and actions requiring human authorization. | adopted | 2026-11-02 |
 | MAINTAIN-PACKAGE | [Maintain package and consumer boundaries](MAINTAIN-PACKAGE-maintain-package-and-consumer-boundaries.md) | operational | Agent maintenance of DesignOps HackPack and adaptation of its reusable resources. | adopted | 2026-11-02 |
 | PRESERVE-WORK | [Preserve concurrent work and design evidence](PRESERVE-WORK-preserve-concurrent-edits-and-design-evidence.md) | operational | Agent edits, content handling and validation in this repository. | adopted | 2026-11-02 |
-| SELECT-WORKFLOWS | [Select the pinned maintenance workflows](SELECT-WORKFLOWS-use-the-pinned-maintenance-source.md) | operational | Agent selection of maintenance workflow source and work records in this repository. | adopted | 2026-11-02 |
+| SELECT-WORKFLOWS | [Select the pinned maintenance workflows](SELECT-WORKFLOWS-use-the-pinned-maintenance-source.md) | operational | Agent selection of maintenance workflow source and work records in this repository. | adopted | 2026-11-03 |
 <!-- agent-policies:end -->
 
 ## Retained context

@@ -8,7 +8,7 @@ The available material includes example component specifications, token palettes
 An agentic skill/tool catalog is planned, not yet implemented. Package here describes the reusable repository’s role, not an existing package-manager release or installer.
 
 ## Developing the package
-Start with [AGENTS.md](AGENTS.md), [TODO.md](TODO.md) and the [agent-aware DesignOps direction spike](docs/active-spikes/agent-aware-designops.md). Development records live in this repository’s `docs/`; their proposals and tasks apply to maintaining the toolkit, not to consumers using its resources. Maintenance uses the pinned [Project Workflows](project-workflows/README.md) collection on `project/designops-hackpack`. Its procedures govern development of this package; they do not automatically govern consumer projects.
+Start with [AGENTS.md](AGENTS.md), [TODO.md](TODO.md) and the [agent-aware DesignOps direction spike](docs/active-spikes/agent-aware-designops.md). Development records live in this repository’s `docs/`; their proposals and tasks apply to maintaining the toolkit, not to consumers using its resources. Maintenance uses the pinned [Project Workflows](project-workflows/README.md) collection at an exact detached shared-source pin, with project configuration in [docs/workflow.toml](docs/workflow.toml). Its procedures govern development of this package; they do not automatically govern consumer projects.
 
 The source repository is [jcklpe/designOps-hackpack](https://github.com/jcklpe/designOps-hackpack). Broader governance tooling and adoption into other projects remain future work.
 
